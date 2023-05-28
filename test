@@ -3,5 +3,5 @@ apt update -y
 apt install httpd -y
 systemctl start httpd -y
 systemctl enable httpd -y
-systemctl status httpd 
+systemctl status httpd -y
 
