@@ -2,4 +2,5 @@
 apt update -y
 apt install httpd -y
 systemctl start httpd -y
+systemctl snable httpd -y
 
